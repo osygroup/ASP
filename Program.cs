@@ -1,3 +1,4 @@
+using Elastic.Apm.NetCoreAll;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,7 @@ namespace cast
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                })
+                .UseAllElasticApm();
     }
 }
