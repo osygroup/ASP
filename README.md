@@ -443,7 +443,7 @@ restart policy while the containers are running:
 
 ![](https://github.com/osygroup/Images/blob/main/ASP.NET-ElasticAPM/image19.png)
 
-Conclusion
+### Conclusion
 
 If it isn't monitored, it isn't production.
 
@@ -453,7 +453,7 @@ monitoring all the key metrics. The data can be immensely useful
 detecting problems early and understand the state of the systems in
 production.
 
-Credits:
+### Credits:
 
 <https://www.elastic.co/what-is/elk-stack>
 
