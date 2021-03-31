@@ -17,6 +17,9 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 5.0.x
+    #I added this
+    - name: Install Elastic APM
+      run: dotnet add package Elastic.Apm.NetCoreAll --version 1.7.0
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
